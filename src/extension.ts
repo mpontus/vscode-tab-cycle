@@ -17,7 +17,7 @@ export function activate(context: ExtensionContext) {
     // To avoid being stuck in the loop a new command is introduced, which puts the active tab 
     // at the end of the list, thus ensuring that it will not be focused on successive invocation
     context.subscriptions.push(
-        commands.registerCommand('extension.sayHello', () => {
+        commands.registerCommand('tabCycle.buryActiveEditor', () => {
             commands.executeCommand('moveActiveEditor', { to: 'last' });
             commands.executeCommand('workbench.action.nextEditorInGroup');
         })

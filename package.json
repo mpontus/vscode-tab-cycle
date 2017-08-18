@@ -15,14 +15,8 @@
     ],
     "main": "./out/src/extension",
     "contributes": {
-        "commands": [
-            {
-                "command": "extension.sayHello",
-                "title": "Hello World"
-            }
-        ],
         "keybindings": {
-            "command": "extension.sayHello",
+            "command": "tabCycle.buryActiveEditor",
             "key": "ctrl+pagedown",
             "mac": "cmd+pagedown"
         }
