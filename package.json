@@ -1,8 +1,8 @@
 {
     "name": "tab-cycle",
     "displayName": "Tab Cycle",
-    "description": "Delightful tab navigation technique",
-    "version": "0.0.1",
+    "description": "Nimble tab navigation technique",
+    "version": "1.0.0",
     "publisher": "mpontus",
     "engines": {
         "vscode": "^1.15.0"
