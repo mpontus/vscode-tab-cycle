@@ -11,7 +11,7 @@
         "Other"
     ],
     "activationEvents": [
-        "onCommand:extension.sayHello"
+        "*"
     ],
     "main": "./out/src/extension",
     "contributes": {
@@ -20,7 +20,12 @@
                 "command": "extension.sayHello",
                 "title": "Hello World"
             }
-        ]
+        ],
+        "keybindings": {
+            "command": "extension.sayHello",
+            "key": "ctrl+pagedown",
+            "mac": "cmd+pagedown"
+        }
     },
     "scripts": {
         "vscode:prepublish": "tsc -p ./",
