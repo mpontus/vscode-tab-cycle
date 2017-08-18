@@ -1,7 +1,7 @@
 {
-    "name": "active-tab-in-front",
-    "displayName": "Active Tab In Front",
-    "description": "Simple tab management",
+    "name": "tab-cycle",
+    "displayName": "Tab Cycle",
+    "description": "Delightful tab navigation technique",
     "version": "0.0.1",
     "publisher": "mpontus",
     "engines": {
